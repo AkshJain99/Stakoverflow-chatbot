@@ -1,0 +1,30 @@
+body {
+    height: 100%;
+    margin: 0%;
+}
+
+#chat-bottom {
+    position: fixed;
+    bottom: 10px;
+    padding-left : 8%;
+    padding-right: 8%;
+    background: #fff(224, 183, 243);
+}
+
+.panel-body {
+    overflow-y: scroll;
+    height: 85%;
+}
+
+.list-group-item {
+    margin-bottom: 15px;
+    border: 1px solid rgb(16, 7, 20);
+}
+
+.query {
+    background: rgb(243, 172, 139);
+}
+
+.response {
+    background: rgb(120, 231, 222);
+}
